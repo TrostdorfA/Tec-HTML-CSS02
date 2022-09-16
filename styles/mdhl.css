@@ -2,34 +2,33 @@ header {
     background-image: url(../assets/design1_image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 20%;
+    background-position-y: 35%;
 }
 
 body {
     /* Key: Value; */
-    background-color: aquamarine; /* background is a property, yellow is a value */
-    background-color: rgb(213, 157, 114);
-    background-color: #faf7f7; /* en hex */
-    font-family: 'Roboto', sans-serif;
-
+    background-color: #ffffff; /* en hex */
+    font-family: cursive;
 }
 
-p {
-    font-size: 20px; /* px es pixels */
-    font-weight: 400; 
-    color: #000000; 
-    background:#ffffff;
-}
 
-h1 {
-    color: darkslategrey;
-    font-size: 45px;
+
+body > p {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 60px;
+    display: initial;
+    font-weight: bold; 
 }
 
 nav > ul > li {
     list-style-type: none;
-    background-color: dodgerblue;
-    padding: 2px 20px;
+    background-color: #0e6dcb;
+    padding: 0px 20px 0px 20px;;
+}
+
+#button {
+    background-color:rgb(59, 171, 59);
 }
 
 nav > ul > li:hover {   /* pseudoclase */
@@ -40,13 +39,14 @@ nav > ul > li:active {
     background-color: aquamarine;
 }
 
-a {
+li > a {
     text-decoration: none;
     color: #faf7f7;
+    font-size: 18px;
 }
 
-.paragraph-green {  /* las clases llevan un punto */
-    color: green;
+p > a {
+    text-decoration: underline 2px black;
 }
 
 .container {
@@ -55,15 +55,6 @@ a {
     height: 30vh;
     display: flex;
     justify-content:right;
-}
-
-.containerNumber {
-    background-color: blueviolet;
-}
-
-.column {
-    background-color: cornflowerblue;
-    flex-direction: column;
 }
 
 .campo {
@@ -78,11 +69,11 @@ a {
 li.opcion
 {
    float:left;
-   margin:0px 1px;
-   border:1px solid black;
+   margin:0px 6px;
+   border:2px solid black;
    /* border-bottom:4px black solid;
    border-right:4px black solid; */
-   box-shadow: 5px 6px 7px -1px rgba(0,0,0,0.48);
+   box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
    /*min-height: 100px; */
 }
 
@@ -98,34 +89,58 @@ main > div {
     align-content: space-around;
 }
 
-main > div > div {
-    width: 300px;
+.dates {
+    width: 600px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.about {
+    width: 800px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.contact {
+    width: 800px;
+    margin-left: 100px;
+    font-size: 10px;
 }
 
 .image
 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    /*object-fit: contain;*/
 }
 
 .caja {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: bold;
     color: #000000;
     background: #ffffff;
     margin: 0 0 25px;
     overflow: hidden;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    border: 2px solid #777777;
 }
 
 nav {
     position: absolute;
-    top: -30px;
-    width: 380px;
+    top: -40px;
+    width: 420px;
 }
 
 ul {
     display: flex;
     justify-content: space-around;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.margin {
+    margin:0px;
+    text-indent: 20px;
 }
