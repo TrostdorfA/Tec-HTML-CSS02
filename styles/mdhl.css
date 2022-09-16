@@ -11,8 +11,6 @@ body {
     font-family: cursive;
 }
 
-
-
 body > p {
     font-family: cursive;
     font-style: italic;
@@ -138,9 +136,15 @@ ul {
 
 dt {
     font-weight: bold;
+    font-size: 20px;
+}
+
+.cursive {
+    font-style: italic;
 }
 
 .margin {
     margin:0px;
     text-indent: 20px;
+    font-size: 17px;
 }
