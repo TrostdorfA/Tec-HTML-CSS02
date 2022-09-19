@@ -2,12 +2,11 @@ header {
     background-image: url(../assets/design1_image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 35%;
+    background-position-y: 45%;
 }
 
 body {
-    /* Key: Value; */
-    background-color: #ffffff; /* en hex */
+    background-color: #ffffff;
     font-family: cursive;
 }
 
@@ -29,14 +28,6 @@ nav > ul > li {
     background-color:rgb(59, 171, 59);
 }
 
-nav > ul > li:hover {   /* pseudoclase */
-    cursor: pointer;
-}
-
-nav > ul > li:active {
-    background-color: aquamarine;
-}
-
 li > a {
     text-decoration: none;
     color: #faf7f7;
@@ -49,8 +40,7 @@ p > a {
 
 .container {
     position: relative;
-    background-color: red;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     justify-content:right;
 }
@@ -66,9 +56,9 @@ p > a {
 
 li.opcion
 {
-   float:left;
-   margin:0px 6px;
-   border:2px solid black;
+   float: left;
+   margin: 0px 6px;
+   border: 2px solid black;
    /* border-bottom:4px black solid;
    border-right:4px black solid; */
    box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
@@ -77,9 +67,8 @@ li.opcion
 
 a.opcion
 {
-    /*position:absolute;*/
-    display:block;
-    padding:5px;
+    display: block;
+    padding: 5px;
 }
 
 main > div {
@@ -93,32 +82,24 @@ main > div {
     font-size: 18px;
 }
 
-.about {
+.text {
     width: 800px;
-    margin-left: 100px;
+    margin-left: 60px;
     font-size: 18px;
 }
 
-.contact {
-    width: 800px;
-    margin-left: 100px;
-    font-size: 10px;
-}
-
-.image
-{
+main > div > div > img {
     height: 150px;
-    /*object-fit: contain;*/
 }
 
 .caja {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: #000000;
     background: #ffffff;
     margin: 0 0 25px;
     overflow: hidden;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     border: 2px solid #777777;
 }
@@ -139,12 +120,12 @@ dt {
     font-size: 20px;
 }
 
-.cursive {
+.italic {
     font-style: italic;
 }
 
 .margin {
-    margin:0px;
+    margin: 0px;
     text-indent: 20px;
     font-size: 17px;
 }
